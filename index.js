@@ -7,7 +7,7 @@ const qrcode = require('qrcode');
 require('dotenv').config();
 
 // Configuración
-const PYTHON_API_URL = process.env.PYTHON_API_URL || 'http://localhost:8000';
+const PYTHON_API_URL = process.env.PYTHON_API_URL || 'http://localhost:8080';
 const SALES_DEPARTMENT_NUMBER = process.env.SALES_DEPARTMENT_NUMBER || '18497201998';
 const PORT = process.env.PORT || 3000;
 
